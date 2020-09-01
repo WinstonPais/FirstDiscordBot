@@ -48,4 +48,5 @@ async def _8ball(ctx, *, question):
     ]
     await ctx.send(f'Question: {question}\nAnswer: {random.choice(responses)}')
 
-client.run(os.environ.get('DiscordBotSejitaToken'))
+# print(os.environ.get('DiscordBotSejitaToken'))
+client.run(str(os.environ.get('DiscordBotSejitaToken')))

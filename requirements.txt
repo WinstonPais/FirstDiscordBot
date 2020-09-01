@@ -1,2 +1,2 @@
-python==3.7.4
-discord.py
+python==3.6.12
+discord.py==1.4.1
